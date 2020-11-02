@@ -1,0 +1,21 @@
+#pageHeading, #inputForm {
+  text-align: center;
+}
+
+#formInputFirst, #formInputLast, #age {
+  margin-left: 20px;
+  width: 200px;
+}
+
+#button {
+  text-align: center;
+}
+
+#table {
+  align-self: center;
+}
+#tableRow {
+  margin: 20px;
+  text-align: center;
+  width: 200px;
+}

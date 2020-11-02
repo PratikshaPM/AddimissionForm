@@ -1,11 +1,26 @@
-<<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html>
   <head>
     <meta charset="utf-8">
     <title>Addimission System</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <p>Addimission Form</p>
-
+    <h2 id="pageHeading">Addimission Form</h2>
+    <form id="inputForm">
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" id="formInputFirst"><br>
+      <label for="lastName">Last Name</label>
+      <input type="text" name="lastName" id="formInputLast"><br>
+      <label for="age">Student Age</label>
+      <input type="number" name="age" id="age"><br>
+      <input type="button" name="button" id="button" value="Submit">
+    </form>
+    <table id="Table">
+      <th id="tableRow">Sr. NO.</th>
+      <th id="tableRow">Full name</th>
+      <th id="tableRow">Age</th>
+    </table>
+    <script src="scripts/main.js"></script>
   </body>
-</html>>
+</html>
